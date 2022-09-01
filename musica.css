@@ -1,0 +1,290 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    .cabecalho {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        font-size: 100%;
+        background-color: #313131;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+    }
+    
+    .cabecalho-menu {
+        display: flex;
+        gap: 32px;
+    }
+    
+    .item-menu {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #a1a1a1;
+    }
+    
+    .item-menu:hover {
+        color: #ffffff;
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        font-size: 35px;
+    }
+    
+    .mymarks {
+        margin-top: 60px;
+        background-image: url('3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .mymarks-escrito {
+        color: #f3e4c4;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 50px;
+    }
+    
+    .mymarks-escrito-titulo {
+        margin-top: 50px;
+        font-size: 60px;
+    }
+    
+    .mymarks-escrito-subtitulo {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    
+    .mymarks-escrito-entenda {
+        margin-top: 50px;
+        font-size: 20px;
+        padding-bottom: 237px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+    .musicas {
+        background-color: #333333;
+    }
+    
+    .musicas-escrito {
+        color: #f3e4c4;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .musicas-escrito-titulo {
+        margin-top: 50px;
+        font-size: 60px;
+    }
+    
+    .musicas-escrito-subtitulo {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    
+    .musicas-escrito-entenda {
+        margin-top: 50px;
+        font-size: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+    .botao-musica {
+        background-color: #c96305;
+        width: 180px;
+        height: 60px;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #f3e4c4;
+        margin-top: 50px;
+    }
+    
+    .botao-musica:hover {
+        background-color: #dd6e06;
+    }
+    
+    .musicas-celular {
+        margin-top: 50px;
+        font-family: 'Fira Sans', sans-serif;
+    }
+    
+    .foto1 {
+        margin-top: 50px;
+        padding-bottom: 210px;
+        width: 100%;
+    }
+    
+    .video {
+        background-color: #ffffff;
+    }
+    
+    .video-escrito {
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .video-escrito-principal {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    
+    .video-escrito-secundario {
+        margin-top: 50px;
+        font-size: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+    .botao-video {
+        background-color: #c96305;
+        width: 180px;
+        height: 60px;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color: #f3e4c4;
+        margin-top: 50px;
+    }
+    
+    .botao-video:hover {
+        background-color: #dd6e06;
+    }
+    
+    .foto2 {
+        padding-bottom: 40px;
+        width: 100%;
+    }
+    
+    .baixar {
+        background-image: url('pexels-chait-goli-2666598.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 210px;
+    }
+    
+    .baixar-escrito {
+        color: #f3e4c4;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .baixar-escrito-principal {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    
+    .baixar-escrito-secundario {
+        margin-top: 60px;
+        font-size: 26px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    
+    .botao-baixar {
+        background-color: #c96305;
+        width: 180px;
+        height: 60px;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        color: #f3e4c4;
+        margin-top: 120px;
+    }
+    
+    .botao-baixar:hover {
+        background-color: #dd6e06;
+    }
+    
+    .giftcard {
+        background-color: #ffffff;
+    }
+    
+    .giftcard-escrito {
+        padding-top: 50px;
+        position: relative;
+    }
+    
+    .giftcard-escrito-principal {
+        padding-top: 50px;
+        font-size: 30px;
+        margin-left: 140px;
+    }
+    
+    .giftcard-escrito-secundario {
+        padding-top: 40px;
+        margin-left: 680px;
+        margin-right: 80px;
+    }
+    
+    .giftcard-entenda {
+        padding-top: 50px;
+        margin-left: 680px;
+        padding-bottom: 10px;
+        border-bottom: 0.4px solid #131212;
+    }
+    
+    .botao-giftcard {
+        margin-left: 625px;
+        padding-bottom: 50px;
+        width: 180px;
+        height: 60px;
+        border: none;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #000000;
+        margin-top: 12px;
+    }
+    
+    .foto3 {
+        position: absolute;
+        height: 400px;
+        width: 500px;
+        display: block;
+        bottom: 1px;
+        z-index: 0;
+    }
+    
+    footer {
+        background-color: #313131;
+        padding-bottom: 20px;
+    }
+    
+    .roda {
+        text-align: center;
+        padding-top: 20px;
+        color: #f3e4c4;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 20px;
+    }
